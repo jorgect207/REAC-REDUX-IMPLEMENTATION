@@ -1,0 +1,44 @@
+.headerMain {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.5px solid gray;
+  margin: auto;
+  align-items: center;
+}
+
+.headerInside {
+  margin: 1px;
+  padding: 0px;
+}
+
+.headerInside button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #690369;
+  color: white;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.headerInside button:hover,
+.headerInside button:active {
+  background-color: rgb(90, 18, 145);
+}
+
+.badge {
+  background-color: #4e0749;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.headerInside button:hover .badge,
+.headerInside button:active .badge {
+  background-color: #9aa5c5;
+}

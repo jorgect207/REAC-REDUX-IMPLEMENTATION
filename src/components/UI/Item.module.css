@@ -1,0 +1,30 @@
+.item {
+  width: 90%;
+  display: flex;
+  margin: 10px auto;
+  padding: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.subitems {
+  width: 100%;
+  text-align: center;
+  border: 0.5px solid gray;
+}
+
+.subitems:first-child {
+  border-right: none;
+}
+
+.subitems:last-child {
+  border-left: none;
+}
+
+.qt {
+  width: 90%;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,17 @@
+.cart {
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  width: 50%;
+  border-bottom: 0.5px solid gray;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.totalAmount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  border: 0.5px solid gray;
+}
